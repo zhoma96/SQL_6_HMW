@@ -1,0 +1,3 @@
+SELECT user_id, birthday FROM vk.profile ORDER BY birthday DESC LIMIT 10;
+SELECT COUNT(post_id) AS post_like_top_10
+FROM vk.like;
